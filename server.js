@@ -37,6 +37,9 @@ app.get('/', (req, res) => {
 });
 
 // setup routes and controllers
+app.route('/books')
+  .get(book.getBooks)
+  .post(book.postBook);
 
 // start the app
 app.listen(port);
