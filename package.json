@@ -1,0 +1,37 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "A bookstore API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajendrauppal/node-rest-api-testing.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Mocha",
+    "Chai",
+    "Testing",
+    "MongoDB",
+    "Express"
+  ],
+  "author": "Rajendra Uppal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajendrauppal/node-rest-api-testing/issues"
+  },
+  "homepage": "https://github.com/rajendrauppal/node-rest-api-testing#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "config": "^2.0.1",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0"
+  }
+}
